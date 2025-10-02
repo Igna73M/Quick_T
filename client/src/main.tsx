@@ -1,5 +1,7 @@
-function main() {
-  return <div>Hello World</div>;
-}
-
-export default main;
+import React from "react";
+import ReactDOM from "react-dom/client";
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <div>Hello World</div>
+  </React.StrictMode>
+);
