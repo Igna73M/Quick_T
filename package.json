@@ -43,5 +43,8 @@
         "url": "https://github.com/Igna73M/Quick_T.git"
     },
     "author": "Igna73M",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "lucide-react": "^0.544.0"
+    }
 }
