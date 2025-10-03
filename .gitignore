@@ -11,6 +11,7 @@ yarn-error.log*
 /server/dist
 build/
 dist/
+/client/repomix-output.xml
 
 # Environment variables
 .env
@@ -106,3 +107,4 @@ Thumbs.db
 
 # Docker
 docker-compose.override.yml
+
