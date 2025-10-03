@@ -1,7 +1,7 @@
 import React from "react";
 
-function Register() {
+function dummy() {
   return <div></div>;
 }
 
-export default Register;
+export default dummy;
