@@ -6,7 +6,7 @@ function DashBoardLayoutHandle() {
   return (
     <div className="flex h-screen">
       <SiderBar />
-      <div className="flex flex-col flex-1">
+      <div className="flex flex-col flex-1 ">
         <NavDashBoard />
         <main className="flex-1 p-4 bg-white border-2 border-amber-400">
           <Outlet />
