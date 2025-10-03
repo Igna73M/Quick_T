@@ -3,6 +3,9 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
+<<<<<<< HEAD
+  ]
+=======
   ],
   "compilerOptions": {
     "ignoreDeprecations": "6.0",
@@ -17,4 +20,5 @@
     "noUnusedLocals": false,
     "strictNullChecks": false
   }
+>>>>>>> development
 }

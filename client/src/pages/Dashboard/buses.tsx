@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Pen, Trash, Bus, Plus } from "lucide-react";
+import { Pen, Trash, Bus, Plus, } from "lucide-react";
 
 function Buses() {
   const [buses, setBuses] = useState([
@@ -62,12 +62,14 @@ function Buses() {
             }
           />
           <button
-            onClick={handleAddBus}
-            className='px-3 py-1 bg-yellow-400 text-white rounded hover:bg-black transition flex items-center gap-2'
-          >
-            <Plus size={16} />
-            <Bus size={20} strokeWidth={3} />
-          </button>
+  onClick={handleAddBus}
+  className="px-3 py-1 bg-yellow-400 text-white rounded hover:bg-black transition flex items-center gap-2 "
+>
+  <Plus size={16} />
+  <Bus size={20} strokeWidth={3} />
+
+</button>
+
         </div>
       </div>
 
@@ -100,12 +102,10 @@ function Buses() {
                 <td className='p-2 border dark:border-gray-600 flex items-center gap-1'>
                   {bus.route} <Bus size={16} />
                 </td>
-                <td className='p-2 border dark:border-gray-600'>
-                  {bus.departure}
-                </td>
-                <td className='p-2 border dark:border-gray-600'>{bus.seats}</td>
-                <td className='p-2 border dark:border-gray-600 py-3 flex gap-2'>
-                  <button className='px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition'>
+                <td className="p-2 border dark:border-gray-600">{bus.departure}</td>
+                <td className="p-2 border dark:border-gray-600">{bus.seats}</td>
+                <td className="p-2 border dark:border-gray-600 py-3 flex gap-2">
+                  <button className="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
                     <Pen size={20} />
                   </button>
                   <button className='px-2 py-1 bg-red-500 text-white rounded hover:bg-red-600 transition'>
