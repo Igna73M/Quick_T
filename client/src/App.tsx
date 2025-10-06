@@ -12,13 +12,13 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<DashBoardLayoutHandle />}>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/dashboard' element={<DashBoardLayoutHandle />}>
             <Route index element={<DashBoard />} />
-            <Route path='buses' element={<Buses />} />
-            <Route path='bookings' element={<Bookings />} />
-            <Route path='analytics' element={<Analytics />} />
+            <Route path='/dashboard/buses' element={<Buses />} />
+            <Route path='/dashboard/bookings' element={<Bookings />} />
+            <Route path='/dashboard/analytics' element={<Analytics />} />
           </Route>
-          <Route path='home' element={<HomePage />} />
         </Routes>
       </BrowserRouter>
     </>
